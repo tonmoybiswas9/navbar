@@ -7,6 +7,7 @@
 body {
   font-family: "Courier New", Courier, monospace;
   max-height: 100vh;
+  /* background-color: #fff; */
 }
 /* logo style start here */
 .logo h1 {
@@ -14,8 +15,11 @@ body {
   font-weight: 600;
   text-align: center;
   text-transform: capitalize;
-  color: darkorange;
+  color: black;
   /* text-shadow: 2px 2px 10px darkorange; */
+}
+.logo h1:hover {
+  text-shadow: 2px 2px 10px gray;
 }
 .nav nav ul {
   display: flex;
@@ -28,9 +32,20 @@ body {
   font-weight: 600;
   font-style: italic;
   color: black;
+  text-transform: capitalize;
+}
+.nav nav ul li a:hover {
+  text-decoration: underline darkslategrey 2px;
 }
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  width: 100%;
+  margin: auto;
+  margin-top: 20%;
+  background-color: rgba(95, 89, 89, 0.29);
+  padding: 20px;
+  border: 2px solid transparent;
+  box-shadow: 2px 2px 20px gray;
 }
