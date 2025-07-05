@@ -1,0 +1,10 @@
+/* css starts here */
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  max-height: 100vh;
+}
