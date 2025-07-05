@@ -41,11 +41,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 100%;
+  width: 90%;
   margin: auto;
+
   margin-top: 20%;
-  background-color: rgba(95, 89, 89, 0.29);
+
   padding: 20px;
   border: 2px solid transparent;
+  border-radius: 10px;
   box-shadow: 2px 2px 20px gray;
 }
