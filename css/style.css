@@ -8,3 +8,12 @@ body {
   font-family: "Courier New", Courier, monospace;
   max-height: 100vh;
 }
+/* logo style start here */
+.logo h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+  color: darkorange;
+  text-shadow: 2px 2px 10px darkorange;
+}
